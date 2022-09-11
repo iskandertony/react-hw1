@@ -1,0 +1,85 @@
+.title-names {
+  display: flex;
+}
+.names {
+  margin-left: 112px;
+  margin-top: 37px;
+}
+
+.border-start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.border-dop {
+  border: 1px solid black;
+  width: 88%;
+}
+
+.border-end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nba-dop {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 130px;
+  line-height: 163px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.text-team {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.text-team-dop {
+  width: 557px;
+  height: 52px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 24px 80px 24px 0px;
+}
+
+.border-team {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+}
+
+.border-dop-team {
+  border: 1px solid black;
+  width: 27.2%;
+  margin-right: 112px;
+}
+
+.text-team-dop-color {
+  color: #0949ef;
+}
+
+.text-team-dop-color2 {
+  color: #fb0223;
+}
+.pict {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

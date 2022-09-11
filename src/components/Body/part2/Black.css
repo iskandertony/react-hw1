@@ -1,0 +1,168 @@
+.body-black {
+  background-color: black;
+  margin-top: 90px;
+}
+
+.border-start-black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0px;
+}
+
+.border-dop-black {
+  border: 1px solid white;
+  width: 88%;
+}
+
+.border-end-black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0px;
+}
+.title-names-black {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.title-names-black-dop {
+  width: 234px;
+  height: 20px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 60px;
+  margin-left: 112px;
+}
+
+.bestSellers-black {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bestSellers-black-dop {
+  width: 569px;
+  height: 82px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 65px;
+  line-height: 82px;
+  text-transform: uppercase;
+  color: #fb0223;
+  margin-left: 112px;
+}
+
+.collection-black-dop {
+  width: 483px;
+  height: 82px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 65px;
+  line-height: 82px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 112px;
+}
+
+.text-names-black-dop {
+  width: 454px;
+  height: 46px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 112px;
+}
+
+.img-black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.img-black-dop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+}
+
+.img-margin-black {
+  margin: 0px 40px;
+}
+
+.text-black-Lebron {
+  width: 279px;
+  height: 22px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 22px;
+  margin-top: 16px;
+  color: #ffffff;
+}
+
+.text-black-Nike {
+  width: 232px;
+  height: 22px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 22px;
+  margin-top: 4px;
+  color: #ffffff;
+
+  opacity: 0.5;
+}
+
+.text-black-money {
+  width: 43px;
+  height: 22px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 22px;
+  margin-top: 16px;
+  color: #ffffff;
+}
+
+.text-black-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0px 112px;
+}
+
+.text-black-end-dop {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-black-end-dop1 {
+  margin-right: 6px;
+  width: 64px;
+  height: 22px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
