@@ -59,8 +59,16 @@
   margin-left: 112px;
 }
 
+.red {
+  color: #fb0223;
+}
+
+.yellow {
+  color: #fff01c;
+}
+
 .collection-black-dop {
-  width: 483px;
+  
   height: 82px;
   font-family: "Orbitron";
   font-style: normal;
@@ -90,14 +98,18 @@
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+  
 }
 
-.img-black-dop {
+.img-black-dop {  
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   color: white;
+
 }
+
+
 
 .img-margin-black {
   margin: 0px 40px;

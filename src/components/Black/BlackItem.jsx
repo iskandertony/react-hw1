@@ -1,9 +1,9 @@
 
-const BlackItem = ({picture, name, description, price}) => {
-    
+const BlackItem = ({ picture, name, description, price }) => {
+    console.log("picture", picture);
     return (
         <div className="img-black-dop">
-            <img src={picture} alt="img"></img>
+           {picture && <img src={picture} alt="img" width={"300px"}></img>} 
             <div className="text-black-Lebron">
                 {name}
             </div>

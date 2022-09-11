@@ -5,12 +5,6 @@ import icon2 from "./../../assets/images/Favorite.png";
 import icon3 from "./../../assets/images/Cart.png";
 
 const Header = (props) => {
-  const text3 = "edirovich can't";
-  const text = `iska ${text3}`;
-  const text2 = `mabo ${text}`;
-  console.log(text);
-  console.log(text2);
-  console.log(text3);
   return (
     <div className="header">
       <div className="nav">
