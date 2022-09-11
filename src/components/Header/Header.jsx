@@ -1,8 +1,8 @@
 import "./Header.css";
-import logo from "./img/Logo.png";
-import icon from "./img/Search.png";
-import icon2 from "./img/Favorite.png";
-import icon3 from "./img/Cart.png";
+import logo from "./../../assets/images/Logo.png";
+import icon from "./../../assets/images/Search.png";
+import icon2 from "./../../assets/images/Favorite.png";
+import icon3 from "./../../assets/images/Cart.png";
 
 const Header = (props) => {
   const text3 = "edirovich can't";

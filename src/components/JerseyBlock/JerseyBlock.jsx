@@ -1,9 +1,9 @@
-import "./Body.css";
-import SmallText from "./IMG/Smalltext.png";
-import Nike from "./IMG/Group.png";
-import Pict from "./IMG/Pict.png";
+import "./JerseyBlock.css";
+import SmallText from "./../../assets/images/Smalltext.png";
+import Nike from "./../../assets/images/Group.png";
+import Pict from "./../../assets/images/Pict.png";
 
-const Body = (props) => {
+const JerseyBlock = (props) => {
   return (
     <div className="body">
       <div className="title-names">
@@ -41,4 +41,4 @@ const Body = (props) => {
   );
 };
 
-export default Body;
+export default JerseyBlock;

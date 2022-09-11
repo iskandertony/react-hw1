@@ -1,9 +1,38 @@
 import "./Black.css";
-import shirt from "./img/shirt.png";
-import line from "./img/Line.png";
-import Nike from "./img/Group.png";
+import shirt from "./../../assets/images/shirt.png";
+import line from "./../../assets/images/Line.png";
+import Nike from "./../../assets/images/Group.png";
+import BlackItem from './BlackItem';
 
 const Black = (props) => {
+
+  const items = [
+    {
+      title: 'LeBron James Lakers City Edition',
+      description: 'Nike NBA Swingman Jersey',
+      price: '290$',
+      image: shirt
+    },
+    {
+      title: 'Jordan Lakers City Edition',
+      description: 'Nike NBA Swingman Jersey',
+      price: '500$',
+      image: 'https://static.remove.bg/remove-bg-web/37843dee2531e43723b012aa78be4b91cc211fef/assets/start-1abfb4fe2980eabfbbaaa4365a0692539f7cd2725f324f904565a9a744f8e214.jpg'
+    },
+    {
+      title: 'Iska Basketball City Edition',
+      description: 'Nike NBA Swingman Jersey',
+      price: '200$',
+      image: shirt
+    },
+    {
+      title: 'Mans Basketball City Edition',
+      description: 'Adidas NBA Swingman Jersey',
+      price: '50$',
+      image: shirt
+    }
+  ]
+
   return (
     <div className="body-black">
       <div className="title-names-black">
@@ -30,30 +59,15 @@ const Black = (props) => {
         </div>
       </div>
       <div className="img-black">
-        <div className="img-black-dop">
-          <img src={shirt} alt="img"></img>
-          <div className="text-black-Lebron">
-            LeBron James Lakers City Edition
-          </div>
-          <div className="text-black-Nike">Nike NBA Swingman Jersey</div>
-          <div className="text-black-money">$290</div>
-        </div>
-        <div className="img-black-dop">
-          <img src={shirt} alt="img" className="img-margin-black"></img>
-          <div className="text-black-Lebron">
-            LeBron James Lakers City Edition
-          </div>
-          <div className="text-black-Nike">Nike NBA Swingman Jersey</div>
-          <div className="text-black-money">$290</div>
-        </div>
-        <div className="img-black-dop">
-          <img src={shirt} alt="img"></img>
-          <div className="text-black-Lebron">
-            LeBron James Lakers City Edition
-          </div>
-          <div className="text-black-Nike">Nike NBA Swingman Jersey</div>
-          <div className="text-black-money">$290</div>
-        </div>
+        {items.map(item => (
+          <BlackItem
+            key={item.title}
+            picture={item.image}
+            name={item.title}
+            description={item.description}
+            price={item.price}
+          />
+        ))}
       </div>
       <div className="text-black-end">
         <div className="text-black-end-dop">
